@@ -4,7 +4,12 @@ For example, if the input is "hello", the output should be "olleh".
 
 reverse_string_approach_1(any)  -> None (display)
 reverse_string_approach_2(any)  -> None (display)
-
+'''
+def reverse_of_string(string):
+  return string[::-1]
+string=input("enter the string to be reversed: ")
+print(f'reverse of string is:{reverse_of_string(string)}')
+'''
 approach 1 using loop
 approach 2 not using loop (look up from internet)
 
